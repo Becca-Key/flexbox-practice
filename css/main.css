@@ -98,7 +98,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(../img/mountain-stream.jpg) no-repeat center center fixed;
     background-size: cover;
    height: 100%;
 }
@@ -119,15 +119,14 @@ body {
 
 #content {
     /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
-    background: #222;
-    background:rgba(0,0,0,0.7);
-    color: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    font-size: 1.25em;
+    background: #f5f5f5;
+    background-color:rgba(192,192,192,0.8);
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.35em;
+    text-align: center;
     line-height: 1.5em;
     border-radius: 10px;
-    padding: 0px 30px;
+    padding: 20px 30px;
     width: 300px;
     height: 300px;
     display: flex;
@@ -135,8 +134,10 @@ body {
     align-items: center;
 }
 
+
 #content p span {
-    font-family: 'Lora', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
 
 
